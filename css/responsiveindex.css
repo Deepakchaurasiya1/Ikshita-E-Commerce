@@ -1,0 +1,50 @@
+/* Navbar */
+
+@media (max-width: 600px) {
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navimg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .poster {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .poster img {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .sneak {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sneakh h2 {
+        padding-top: 10px;
+    }
+
+    #contact {
+        margin-bottom: 5%;
+
+    }
+
+    .client {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    
+    
+
+
+
+
+}

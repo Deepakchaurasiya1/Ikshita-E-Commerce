@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Sofia Sans;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*FREE SHIPPING TOP */
+.top {
+    display: flex;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5942c;
+}
+
+/*  Section */
+.logo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.fa-heart {
+    margin: 10px;
+}
+
+.fa-user {
+    margin: 10px;
+}
+
+.fa-shopping-cart {
+    margin: 10px;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    animation-name: text;
+    animation-duration: 2s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background-color: #a48701;
+    height: 2px;
+
+}
+
+/* Nav Image six pick */
+.navimg {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background-color: #f5eddb;
+}
+
+.topimg img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 1px 2px #c063a7;
+    border: solid 2px #6179c5;
+}
+
+.topimg h6 {
+    margin-left: 20px;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+/* Product */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 5px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item img.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+
+.gallery-item:hover img.hover-image {
+    opacity: 1;
+}
+
+/* Product H4 */
+.gallery-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Product Button */
+#productbtn {
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 5% 40%;
+    padding: 10px 30px;
+    background-color: #c5942c;
+}
+
+/* Video Section */
+iframe {
+    margin: 23px;
+}
+
+/* Banner Second Section */
+.banners img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Summer Banner */
+.summer img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/* Summer Blog Poster */
+.poster {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poster img {
+    width: 30%;
+    margin: 10px;
+}
+
+/* Sneak Peak */
+.sneak {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.sneakh {
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg.jpg);
+}
+
+.sneakh h2 {
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 400;
+    color: #cd8c00;
+    padding-top: 40%;
+    margin: 20px;
+    font-family: Tangerine;
+}
+
+.sneakh p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#contact {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    background-color: #c5942c;
+
+}
+
+/* Available At */
+.available {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Client */
+
+.image-container {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+}
+
+.image-container img {
+    width: 18%;
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.2);
+}
+
+.image-container img:hover {
+    animation: rotateImage 2s linear infinite;
+}
+
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+/* <!-- @ikshitachoudhary --> */
+.ikshita {
+    padding: 40px 40px;
+    background-color: #cd8c00;
+}
+
+.ikshitah {
+    display: flex;
+    padding: 2% 2%;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ikshitah h2 {
+    color: white;
+    cursor: pointer;
+}
+
+.ikshitah a:hover {
+    text-decoration: none;
+}
+
+.ikshitacha {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.ikshitacha img {
+    width: 15%;
+}
+.ikshitacha img:hover{
+    opacity: 0.10;
+    background-color:rgba(255, 255, 255, 0);
+}
+/* Footer Section */
+.footer{
+    padding-top:2%;     
+    background-color:black; 
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: space-around;        
+}
+.footchild h5{
+    color:#c5941a;
+}
+.footchild li{  
+   list-style: none;
+}
+.footchild li a{
+    color: #c5941a;
+    align-items: center;      
+    justify-content: center;
+    text-align: center;
+    text-decoration: none !important;   
+}
+.footer p {
+    color: #c5941a;
+    text-align: center;    
+}
+.footimg img{
+    width: 100%;
+}
+/* Buttom To Top Arrow */
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    z-index: 99;
+    font-size: 18px;
+    background-color: #daa520;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+/* WhatsApp Icon */
+.whatsapp {
+    position: fixed;
+    bottom: 0px;
+}
+
+.whatsapp img {
+    width: 50px;
+    margin: 20px;
+}
